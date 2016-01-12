@@ -1,0 +1,17 @@
+Class Ticket
+
+ ticket_total=0
+
+def __init__(self, ticket_number, purch_date):
+    self.number = ticket_number
+    self.date = purch_date
+    ticket_total = += 1
+
+def display_ticket(self):
+    print "Ticket Number: ", self.number "
+    print "Purchase Date: ", self.date"
+
+    
+tick1 = Ticket(123456. 01/8/2016)
+
+tick1.display_ticket()
